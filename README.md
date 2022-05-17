@@ -5,4 +5,8 @@
 
 [![GitAction Test](https://github.com/Nickolay-Klimentov/frontend-project-lvl1/workflows/gitaction-test/badge.svg)](https://github.com/Nickolay-Klimentov/frontend-project-lvl1/actions/workflows/gitaction-test.yml)
 
+Even Game
 [![asciicast](https://asciinema.org/a/494314.svg)](https://asciinema.org/a/494314)
+
+Calc Game
+[![asciicast](https://asciinema.org/a/495189.svg)](https://asciinema.org/a/495189)
