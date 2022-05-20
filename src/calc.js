@@ -12,9 +12,9 @@ const generateCalcGame = () => {
   return [question, answer];
 };
 
-const startGame = () => {
+const startCalcGame = () => {
   const question = 'What is the result of the expression?';
   playGame(question, generateCalcGame);
 };
 
-export default startGame;
+export default startCalcGame;
