@@ -13,3 +13,6 @@ Calc Game
 
 Gcd Game
 [![asciicast](https://asciinema.org/a/496053.svg)](https://asciinema.org/a/496053)
+
+Progression Game
+[![asciicast](https://asciinema.org/a/496937.svg)](https://asciinema.org/a/496937)
