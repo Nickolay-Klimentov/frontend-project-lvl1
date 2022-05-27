@@ -16,3 +16,6 @@ Gcd Game
 
 Progression Game
 [![asciicast](https://asciinema.org/a/496937.svg)](https://asciinema.org/a/496937)
+
+Prime Game
+[![asciicast](https://asciinema.org/a/497593.svg)](https://asciinema.org/a/497593)
