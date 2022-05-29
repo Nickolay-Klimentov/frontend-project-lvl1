@@ -1,5 +1,5 @@
-import playGame from './index.js';
-import getRandomNumber from './random.js';
+import playGame from '../index.js';
+import getRandomNumber from '../random.js';
 
 const generateCalcGame = () => {
   const operations = [['+', (a, b) => a + b], ['-', (a, b) => a - b], ['*', (a, b) => a * b]];
