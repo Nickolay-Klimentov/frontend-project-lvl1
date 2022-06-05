@@ -2,8 +2,8 @@ import playGame from '../index.js';
 import getRandomNumber from '../random.js';
 
 const findGcd = (firstNumber, secondNumber) => {
-  const bigger = (firstNumber > secondNumber) ? firstNumber : secondNumber;
-  const smaller = (firstNumber > secondNumber) ? secondNumber : firstNumber;
+  const bigger = Math.max(firstNumber, secondNumber);
+  const smaller = Math.min(firstNumber, secondNumber);
   if (bigger % smaller === 0) {
     return smaller;
   }
