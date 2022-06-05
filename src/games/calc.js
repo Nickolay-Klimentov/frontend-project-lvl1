@@ -2,6 +2,27 @@ import playGame from '../index.js';
 import getRandomNumber from '../random.js';
 
 const generateCalcGame = () => {
+  const operations = (a, sign, b) => {
+    switch (sign) {
+      case '+':
+        return a + b;
+      case '-':
+        return a - b;
+      case '*':
+        return a * b;
+      default:
+        return false;
+    }
+  };
+  const firstNumber = getRandomNumber(1, 20);
+  const secondNumber = getRandomNumber(1, 20);
+  const signs = ['+', '-', '*'];
+  const signIndex = signs[getRandomNumber(0, signs.length)];
+  const question = `${firstNumber} ${signIndex} ${secondNumber}`;
+  const answer = `${operations(firstNumber, signIndex, secondNumber)}`;
+  return [question, answer];
+};
+/* Прошлое решение
   const operations = [['+', (a, b) => a + b], ['-', (a, b) => a - b], ['*', (a, b) => a * b]];
   const firstNumber = getRandomNumber(1, 20);
   const secondNumber = getRandomNumber(1, 20);
@@ -10,8 +31,7 @@ const generateCalcGame = () => {
   const question = `${firstNumber} ${sign} ${secondNumber}`;
   const answer = operation(firstNumber, secondNumber).toString();
   return [question, answer];
-};
-
+*/
 const startCalcGame = () => {
   const question = 'What is the result of the expression?';
   playGame(question, generateCalcGame);
