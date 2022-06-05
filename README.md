@@ -20,7 +20,12 @@
 ### Требования и запуск игр
 Для запуска игр потребуется установить Node.js версии 13 и выше.
 Установите пакет в систему с помощью команды npm link и убедитесь в том, что он работает, запустив brain-games в терминале.
-Игры запускаются следующими командами: brain-even, brain-calc, brain-gcd, brain-progression, brain-prime.
+Игры запускаются следующими командами:
+- node/bin/brain-even,
+- node/bin/brain-calc,
+- node/bin/brain-gcd,
+- node/bin/brain-progression,
+- node/bin/brain-prime.
 
 ### Even Game
 Проверка числа на чётность
