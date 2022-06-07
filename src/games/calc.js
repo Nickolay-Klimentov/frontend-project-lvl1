@@ -18,9 +18,9 @@ const calcMathOperations = (a, sign, b) => {
 const generateCalcGame = () => {
   const firstNumber = getRandomNumber(1, 20);
   const secondNumber = getRandomNumber(1, 20);
-  const sign = signs[getRandomNumber(0, signs.length)];
+  const sign = signs[getRandomNumber(0, signs.length - 1)];
   const question = `${firstNumber} ${sign} ${secondNumber}`;
-  const answer = `${calcMathOperations(firstNumber, sign, secondNumber)}`;
+  const answer = calcMathOperations(firstNumber, sign, secondNumber).toString();
   return [question, answer];
 };
 /* Прошлое решение
