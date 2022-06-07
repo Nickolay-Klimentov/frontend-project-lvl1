@@ -11,7 +11,7 @@ const calcMathOperations = (a, sign, b) => {
     case '*':
       return a * b;
     default:
-      throw new Error(`Wrong sign: '${sign}'!`);
+      throw Error(`Wrong sign: '${sign}'!`);
   }
 };
 
