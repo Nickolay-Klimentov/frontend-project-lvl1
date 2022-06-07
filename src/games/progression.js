@@ -17,7 +17,7 @@ const generateProgressionGame = () => {
   const length = 10;
   const progression = makeProgression(progressionStart, step, length);
   const dividedProgression = progression.slice();
-  const randomIndex = getRandomNumber(0, progression.length-1);
+  const randomIndex = getRandomNumber(0, progression.length - 1);
   dividedProgression[randomIndex] = '..';
   const question = dividedProgression.join(' ');
   const answer = progression[randomIndex].toString();
